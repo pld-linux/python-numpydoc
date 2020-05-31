@@ -1,12 +1,14 @@
+# NOTE: for versions >= 1.0 see python3-numpydoc.spec
 #
 # Conditional build:
 %bcond_without	tests	# unit tests
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-numpydoc.spec)
 
 Summary:	Sphinx extension to support docstrings in Numpy format
 Summary(pl.UTF-8):	Rozszerzenie Sphinksa do obsług docstringów w formacie Numpy
 Name:		python-numpydoc
+# NOTE: keep 0.x here for python2 support
 Version:	0.9.2
 Release:	1
 License:	BSD
