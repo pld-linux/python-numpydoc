@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	Rozszerzenie Sphinksa do obsług docstringów w formacie Nump
 Name:		python-numpydoc
 # NOTE: keep 0.x here for python2 support
 Version:	0.9.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/numpydoc/
